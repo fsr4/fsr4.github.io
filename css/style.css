@@ -37,9 +37,9 @@ a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
-  color: #57d131; }
+  color: #76B900; }
   a:hover, a:focus, a:active {
-    color: #4ebe2a;
+    color: #b7d77c;
     text-decoration: none; }
 
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
@@ -90,7 +90,7 @@ a {
       .site-navbar .navbar-nav > li > a {
         color: rgba(0, 0, 0, 0.7) !important; } }
   .site-navbar .navbar-nav.active > a {
-    color: #57d131 !important; }
+    color: #76B900 !important; }
   .site-navbar.scrolled {
     background: #fff;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
@@ -123,7 +123,7 @@ a {
       -webkit-transform: translateY(-90%);
       -ms-transform: translateY(-90%);
       transform: translateY(-90%);
-      background: #57d131 !important; }
+      background: #76B900 !important; }
     .site-navbar.scrolled .navbar-brand {
       color: #000; }
     .site-navbar.scrolled .dropdown > a:before {
@@ -131,11 +131,11 @@ a {
     .site-navbar.scrolled .navbar-nav > li > a {
       color: rgba(0, 0, 0, 0.7) !important; }
       .site-navbar.scrolled .navbar-nav > li > a:hover {
-        color: #57d131 !important; }
+        color: #76B900 !important; }
       .site-navbar.scrolled .navbar-nav > li > a.active {
-        color: #57d131 !important; }
+        color: #76B900 !important; }
     .site-navbar.scrolled .navbar-nav > li.active > a {
-      color: #57d131 !important; }
+      color: #76B900 !important; }
 
 .site-hero {
   background-color: #ccc;
@@ -196,7 +196,7 @@ a {
       left: 0;
       height: 2px;
       width: 50px;
-      background: #57d131;
+      background: #76B900;
       z-index: -1; }
   .section-heading.text-center h2:before {
     left: 50%;
@@ -212,7 +212,7 @@ a {
   display: block;
   margin-bottom: 50px;
   background: #edf0f2;
-  background: #57d131;
+  background: #76B900;
   width: 100px;
   height: 100px;
   position: relative;
@@ -260,7 +260,7 @@ a {
     .site-list li.site-check {
       padding-left: 30px; }
       .site-list li.site-check:before {
-        color: #57d131;
+        color: #76B900;
         font-size: 16px;
         content: "\ebd3"; }
 
@@ -275,18 +275,18 @@ a {
   .btn.btn-primary {
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-      background: #4ebe2a; }
+      background: #93c33a; }
 
 .progress {
   overflow: visible;
   margin-bottom: 26px;
   height: 4px; }
   .progress .progress-bar {
-    background-color: #57d131;
+    background-color: #76B900;
     position: relative;
     border-radius: 4px; }
     .progress .progress-bar span {
-      background-color: #57d131;
+      background-color: #76B900;
       position: absolute;
       bottom: -20px;
       font-size: 10px;
@@ -304,7 +304,7 @@ a {
       position: absolute;
       pointer-events: none;
       border-color: rgba(255, 255, 255, 0);
-      border-bottom-color: #57d131;
+      border-bottom-color: #76B900;
       border-width: 5px;
       margin-left: -5px; }
 
@@ -328,9 +328,9 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .filters ul li:hover {
-        color: #57d131; }
+        color: #76B900; }
       .filters ul li.active {
-        color: #57d131; }
+        color: #76B900; }
 
 .single-portfolio {
   margin-bottom: 50px;
@@ -349,7 +349,7 @@ a {
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
   color: #fff;
-  background-color: #57d131;
+  background-color: #76B900;
   margin-left: auto;
   margin-right: auto; }
 
@@ -391,7 +391,7 @@ a {
   transition: width 350ms ease-out; }
 
 .portfolio-area .filters ul li.active {
-  color: #57d131; }
+  color: #76B900; }
 
 .portfolio-area .filters-content {
   margin-top: 50px; }
@@ -485,7 +485,7 @@ a {
   transition: .3s all ease;
   border: 4px solid transparent; }
   .resume-item:hover, .resume-item:focus {
-    border: 4px solid #57d131;
+    border: 4px solid #76B900;
     -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); }
   .resume-item .date {
@@ -523,7 +523,7 @@ a {
       .blog-entry .blog-entry-text h3 a {
         color: #2c3e50; }
         .blog-entry .blog-entry-text h3 a:hover {
-          color: #57d131; }
+          color: #76B900; }
   .blog-entry .meta {
     font-size: 14px; }
     .blog-entry .meta a {
@@ -531,7 +531,7 @@ a {
       margin-right: 10px;
       color: #96a3b0; }
       .blog-entry .meta a:hover {
-        color: #57d131; }
+        color: #76B900; }
 
 .form-control {
   border: none !important;
