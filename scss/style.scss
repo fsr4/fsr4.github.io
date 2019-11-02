@@ -4,7 +4,7 @@
 @import "bootstrap/mixins";
 
 
-body {	
+body {
 	background: $white;
 	color: #798a9a;
 	line-height: 1.7;
@@ -29,11 +29,11 @@ body {
 
 // selection
 ::selection {
-  background: $black; 
+  background: $black;
   color: $white;
 }
 ::-moz-selection {
-  background: $black; 
+  background: $black;
   color: $white;
 }
 h1, h2,h3,h4, h5 {
@@ -54,7 +54,7 @@ a {
 }
 
 .site-navbar {
-	
+
 	border: none;
 	box-shadow: none;
 	border-radius: 0px;
@@ -94,18 +94,18 @@ a {
 
 		}
 	}
-	
+
 
 	.navbar-toggler {
 		@include media-breakpoint-up(lg) {
 			// position: absolute;
-			// right: 0;	
+			// right: 0;
 		}
 	}
-	
 
-	
-	
+
+
+
 
 	// main nav style
 	.navbar-nav {
@@ -122,7 +122,7 @@ a {
 				@include media-breakpoint-down(md) {
 					color: rgba(0,0,0,.7)!important;
 				}
-				
+
 			}
 		}
 		&.active {
@@ -132,8 +132,8 @@ a {
 		}
 	}
 
-	
-	
+
+
 	&.scrolled {
 		background: $white;
 		box-shadow: 0px 1px 3px 0px rgba(0,0,0,.09);
@@ -152,11 +152,11 @@ a {
 			font-size: 18px;
 			border: 2px solid $black;
 			padding: 2px 10px!important;
-			
+
 		}
-		
+
 		&.awake, &.sleep {
-			transition: .3s all ease;	
+			transition: .3s all ease;
 		}
 		&.awake {
 			transform: translateY(0%);
@@ -176,7 +176,7 @@ a {
 				}
 			}
 		}
-		
+
 		.navbar-nav {
 			> li {
 				> a {
@@ -289,9 +289,9 @@ a {
 .site-service-item {
 	.icon {
 		display: block;
-		
+
 		margin-bottom: 50px;
-		
+
 		background: lighten(#798a9a, 40%);
 		background: $primary;
 		width: 100px;
@@ -578,21 +578,21 @@ a {
 }
 
 .single-portfolio{
-    border-radius:5px;  
+    border-radius:5px;
     &:hover{
         .thumb{
             .overlay-bg{
                 opacity:.85;
             }
         }
-    }    
+    }
 }
 
 .thumb{
     .overlay-bg{
         @extend .p1-gradient-bg;
         opacity:0;
-        border-radius:5px;  
+        border-radius:5px;
         @include transition();
     }
 }
@@ -611,7 +611,7 @@ a {
 		display: block;
 		margin-bottom: 10px;
 		font-size: 12px;
-		letter-spacing: .1em; 
+		letter-spacing: .1em;
 		color: lighten(#798a9a, 20%);
 		text-transform: uppercase;
 	}
@@ -688,7 +688,7 @@ a {
 			margin-bottom: 5px;
 			display: block;
 		}
-	}	
+	}
 }
 
 .site-footer {
