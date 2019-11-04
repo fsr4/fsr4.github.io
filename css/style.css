@@ -5,6 +5,28 @@ body {
   font-size: 16px;
   font-weight: 300; }
 
+.backbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 45%;
+  left: 45%;
+  z-index: 99;
+}
+
+@media screen and (max-width: 1000px) {
+  .backbutton {
+    right: 40%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .backbutton {
+    right: 35%;
+    left: 35%;
+  }
+}
+
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
