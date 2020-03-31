@@ -27,10 +27,6 @@ body {
   }
 }
 
-#fsr_video {
-  height: 300px !important;
-}
-
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
