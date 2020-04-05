@@ -17,6 +17,10 @@ Hier können Dateien abgelegt werden, die auf der Website eingebunden werden sol
 
 ## Lokale Installation
 
-ACHTUNG: Es muss Ruby (siehe [ruby-lang.org](https://www.ruby-lang.org/en/)) und Jekyll (siehe [jekyllrb.com](https://jekyllrb.com/docs/installation/)) installiert werden 
+ACHTUNG: Um das Projekt unter Windows testen zu können, muss zuerst Ruby installiert werden (siehe [ruby-lang.org](https://www.ruby-lang.org/en/))
 
-Um die Website lokal zu testen, kann nach der Installation aus dem geklonten Projektordner `jekyll serve` im Terminal ausgeführt werden.
+- Projekt von GitHub klonen
+- Terminal im Projekt-Root-Ordner öffnen
+- `bundle install` ausführen
+
+Um die Website lokal zu testen, kann nach der Installation `bundle exec jekyll serve` im Terminal ausgeführt werden
