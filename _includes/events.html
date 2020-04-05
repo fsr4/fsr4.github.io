@@ -1,0 +1,44 @@
+<section>
+  <section class="site-section" id="section-portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-heading text-center col-md-12">
+          <h2><strong>Veranstaltungen</strong></h2>
+          <p class="lead">Sommersemester 2020</p>
+        </div>
+      </div>
+      <div class="filters">
+        <ul>
+          <li class="active" data-filter="*">All</li>
+          <li data-filter=".htw">HTW Weit</li>
+          <li data-filter=".fb4">Fachbereich 4</li>
+          <li data-filter=".sg">Studiengangsspezifisch</li>
+          <li data-filter=".sitzung">FSR4 Sitzungen (offen für alle!)</li>
+        </ul>
+      </div>
+
+      <div class="filters-content container">
+        <div class="row event-filter justify-content-center">
+
+          {% for event in site.events %}
+            <div class="card m-2 all {{ event.tag }}" style="width: 23%; min-width: 15rem; height: 27rem;">
+              <img src="{{ event.image }}" class="card-img-top" alt="{{ event.image_alt }}">
+              <div class="card-body d-flex flex-column">
+                <p class="card-text"><span class="date"><span class="icon-calendar"></span> {{ event.date | date_to_long_string }}, {{ event.time }}, {{ event.location }}</span></p>
+                <h5 class="card-title">{{ event.title }}</h5>
+
+                {% if event.pre-registration %}
+                  <a href="{{ event.registration_link }}" class="btn btn-primary mt-auto">Anmeldung</a>
+                {% else %}
+                  <a href="#" class="btn btn-danger mt-auto disabled" role="button" aria-disabled="true">Keine Anmeldung</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

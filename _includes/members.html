@@ -1,0 +1,47 @@
+<section class="site-section bg-light " id="section-members">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 mb-5">
+        <div class="section-heading text-center">
+          <h2><strong>Mitglieder</strong> ({{ site.members.size }})</h2>
+        </div>
+      </div>
+
+    <!--  <div class="col-md-12 ml-1 mb-3"><h2><strong>Vorsitz</strong></h2></div> -->
+
+    {% for member in site.members %}
+      <a href="mailto:{{ member.email }}">
+        <div class="resume-item mb-4">
+          <h3>{{ member.first_name }} {{ member.last_name }}</h3>
+            {% if member.role %}
+              <p class="mt-0 mb-0 date"><strong>{{ member.status }}</strong></p>
+              <p class="mt-0 mb-0 date text-danger"><strong>{{ member.role }}</strong></p>
+            {% else %}
+              <p class="mt-4 mb-0 date"><strong>{{ member.status }}</strong></p>
+            {% endif %}
+          <p class="mt-1 mb-0">{{ member.studyprogramm }}, {{ member.degree }}</p>
+        </div>
+      </a>
+    {% endfor %}
+
+</section>
+<section class="site-section bg-light ">
+      <!--Resorts-->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 mb-3">
+            <div class="resorts mb-4">
+              <h2 class="mb-3"><strong>Resorts</strong></h2>
+              <table class="table table-sm table-hover">
+                {% for resort in site.resorts %}
+                    <tr>
+                      <td><strong>{{ resort.name }}</strong></td>
+                      <td><a href="mailto:{{ resort.person_email }}">{{ resort.person_name }}</a></td>
+                    </tr>
+                {% endfor %}
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
