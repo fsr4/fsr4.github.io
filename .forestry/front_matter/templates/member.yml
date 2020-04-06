@@ -1,0 +1,25 @@
+---
+label: Member
+hide_body: true
+fields:
+- type: text
+  name: first_name
+  label: first_name
+- type: text
+  name: last_name
+  label: last_name
+- type: text
+  name: email
+  label: email
+- type: text
+  name: role
+  label: role
+- type: text
+  name: status
+  label: status
+- type: text
+  name: studyprogramm
+  label: studyprogramm
+- type: text
+  name: degree
+  label: degree
