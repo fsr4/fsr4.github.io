@@ -1,0 +1,31 @@
+---
+label: Event
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: image_alt
+  label: image_alt
+- type: text
+  name: date
+  label: date
+- type: text
+  name: time
+  label: time
+- type: text
+  name: location
+  label: location
+- type: boolean
+  name: pre-registration
+  label: pre-registration
+- type: text
+  name: registration_link
+  label: registration_link
+- type: text
+  name: tag
+  label: tag
