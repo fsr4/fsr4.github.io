@@ -10,18 +10,18 @@ sections:
 - type: directory
   path: _resorts
   label: Resorts
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*.md"
 - type: directory
   path: _members
   label: Members
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*.md"
 - type: directory
   path: _events
   label: Events
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
