@@ -1,0 +1,13 @@
+---
+label: Resort
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: person_name
+  label: person_name
+- type: text
+  name: person_email
+  label: person_email
