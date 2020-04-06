@@ -8,17 +8,17 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: _resorts
+  path: collections/_resorts
   label: Resorts
   create: documents
   match: "*.md"
 - type: directory
-  path: _members
+  path: collections/_members
   label: Members
   create: documents
   match: "*.md"
 - type: directory
-  path: _events
+  path: collections/_events
   label: Events
   create: documents
   match: "*.md"
