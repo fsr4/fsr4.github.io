@@ -29,3 +29,5 @@ fields:
 - type: text
   name: tag
   label: tag
+pages:
+- collections/_events/stupa-sitzung.md
