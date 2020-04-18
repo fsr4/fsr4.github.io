@@ -4,10 +4,10 @@ Webseite des Fachschaftsrat 4 der HTW Berlin
 ## Aufbau der Website
 
 ### _includes
-Enthält HTML-Code-Snippets, die einen eigenständigen Teil der Website abbilden (z.B. Events-Section, Sidebar, ...)
+Enthält HTML-Code-Snippets, die einen eigenständigen Teil der Website abbilden (z.B. Events, Members, ...)
 
 ### _layout
-Enthält HTML-Code-Snippets, die die Struktur der Website abbilden. Diese können als Vorlage für neue Seiten verwendet werden. (Beispiel: Siehe impressum.md)
+Enthält HTML-Code-Snippets, die die Struktur der Website abbilden. Diese können als Vorlage für neue Seiten verwendet werden. 
 
 ### collections
 Enthält Daten für die Webseite im Markdown-Format wie Mitglieder oder Veranstaltungen. Diese werden dann in den entsperchenden Bereichen der Seite gerendert.
