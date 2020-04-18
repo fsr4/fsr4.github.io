@@ -5,8 +5,8 @@ collections:
     sort_by: date
   members:
     sort_by: last_name
-    order:
-      - veronika.md
-      - lotte.md
-      - luis.md
+    # order:
+    #   - veronika.md
+    #   - lotte.md
+    #   - luis.md
   resorts:

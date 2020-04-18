@@ -30,3 +30,9 @@
   margin-right: 12px;
   background: #fff;
 }
+
+hr {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 50%
+}
