@@ -7,6 +7,11 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: directory
+  path: _includes
+  label: Includes
+  create: all
+  match: "**/*"
 - type: document
   path: _includes/*.html
   label: Includes
