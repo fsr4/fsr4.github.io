@@ -8,6 +8,5 @@ location: online
 pre-registration: true
 registration_link: mailto:fsr-4@lists.htw-berlin.de
 tag: sitzung
-published: false
 
 ---
