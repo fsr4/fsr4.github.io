@@ -4,13 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
 - type: document
   path: _includes
   label: Includes
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: directory
   path: collections/_resorts
   label: Resorts
