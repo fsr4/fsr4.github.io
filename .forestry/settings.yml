@@ -8,9 +8,8 @@ sections:
   label: Pages
   create: all
 - type: document
-  path: _includes
+  path: _includes/*.html
   label: Includes
-  match: "**/*"
 - type: directory
   path: collections/_resorts
   label: Resorts
