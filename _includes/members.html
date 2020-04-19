@@ -9,7 +9,7 @@
 
     <!--  <div class="col-md-12 ml-1 mb-3"><h2><strong>Vorsitz</strong></h2></div> -->
 
-    {% for member in site.members %}
+    {% for member in site.members | sort: "last_name" %}
       <a href="mailto:{{ member.email }}">
         <div class="resume-item mb-4">
           <h3>{{ member.first_name }} {{ member.last_name }}</h3>
