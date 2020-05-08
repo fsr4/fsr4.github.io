@@ -2,9 +2,9 @@ name: FSR4 der HTW Berlin
 collections_dir: collections
 collections:
   events:
-    # sort_by: date
+    sort_by: date
   members:
-    # sort_by: last_name
+    sort_by: last_name
     order:
       - veronika.md
       - lotte.md
