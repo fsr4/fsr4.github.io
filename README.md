@@ -1,4 +1,6 @@
 # fsr4.github.io
+![deploy](https://github.com/fsr4/fsr4.github.io/workflows/deploy/badge.svg)
+
 Webseite des Fachschaftsrat 4 der HTW Berlin
 
 ## Aufbau der Website
