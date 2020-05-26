@@ -1,0 +1,37 @@
+# This is the name of our workflow.
+    # Github will show it on its Website UI
+    name: deploy
+    # This configures our workflow to be triggered
+    # only when we push to the master branch
+    on:
+      push:
+        branches:
+          - master
+
+    # Here is where we define our jobs.
+    # Which means the tasks we want Github to execute
+    jobs:
+      build:
+        name: deploy
+        # Here we specify in whith OS we want it to run
+        runs-on: ubuntu-18.04
+        # Now we define which actions will take place.
+        # One after another
+        steps:
+          # This is the first action. It will make sure that we have
+          # all the necessary files from our repo, including our custom actions
+          # This action here is actually from a remote repo available from Githup itself
+          - uses: actions/checkout@v2
+          # This is our custom action. Here is where we will define our git commands
+          # to push our website updates to the `gh-pages` branch.
+          # Notice that we are specifying the path to the action here.
+          # We will create those files in a sec
+          - uses: ./.github/actions/build-dist-site
+            env:
+              # Now make sure you add this environment variable.
+              # This token will allow us to push to github directly
+              # without having to type in our password.
+              # The GITHUB_TOKEN is available by default
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+             GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
