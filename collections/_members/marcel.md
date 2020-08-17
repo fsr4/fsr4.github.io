@@ -6,6 +6,5 @@ role: ''
 status: Kommisarisches Mitglied
 studyprogramm: Internationaler Studiengang Medieninformatik
 degree: Bachelor
-published: false
 
 ---
