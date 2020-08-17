@@ -30,5 +30,4 @@ fields:
   name: tag
   label: tag
 pages:
-- collections/_events/fsr4-sitzung.md
 - collections/_events/stupa-sitzung-177.md
