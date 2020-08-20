@@ -23,3 +23,5 @@ fields:
 - type: text
   name: degree
   label: degree
+pages:
+- collections/_members/marcel.md
