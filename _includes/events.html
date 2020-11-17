@@ -27,13 +27,26 @@
             <div class="card m-2 all {{ event.tag }}" style="width: 23%; min-width: 15rem; height: 27rem;">
               <img src="{{ event.image }}" class="card-img-top" alt="{{ event.image_alt }}">
               <div class="card-body d-flex flex-column">
-                <p class="card-text"><span class="date"><span class="icon-calendar"></span> {{ event.date | date_to_long_string }}, {{ event.time }}, {{ event.location }}</span></p>
+                <p class="card-text m-0">
+                  <span class="icon-calendar"></span>
+                  {{ event.date | date_to_long_string }}
+                </p>
+                {% if event.time %}
+                <p class="card-text m-0">
+                  <span class="icon-clock"></span>
+                  {{ event.time }}
+                </p>
+                {% endif %}
+                <p class="card-text">
+                  <span class="icon-location-pin"></span>
+                  {{ event.location }}
+                </p>
                 <h5 class="card-title">{{ event.title }}</h5>
 
-                {% if event.pre-registration %}
+                {% if event.registration_link %}
                   <a href="{{ event.registration_link }}" class="btn btn-primary mt-auto">Anmeldung</a>
-                {% else %}
-                  <a href="#" class="btn btn-danger mt-auto disabled" role="button" aria-disabled="true">Keine Anmeldung</a>
+                {% elsif event.link %}
+                  <a href="{{ event.link }}" class="btn btn-primary mt-auto">Zum Event</a>
                 {% endif %}
               </div>
             </div>
