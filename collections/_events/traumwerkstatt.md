@@ -6,6 +6,6 @@ date: 12.12.2020
 time: ab 9 Uhr
 location: online
 pre-registration: true
-registration_link: https://www.eventbrite.de/e/traumwerkstatt-wise20202021-registrierung-129333950327
+registration_link: https://wiki.htw-berlin.de/confluence/display/fachschaftsrat4/Traumwerkstatt+2020
 tag: htw
 ---
