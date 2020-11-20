@@ -49,6 +49,13 @@
 		$('body').on('activate.bs.scrollspy', function () {
 		  console.log('nice');
 		})
+
+		// Custom nav stuff by Luis
+		$('.dropdown-item-link').each(function () {
+			$(this).on('click', function () {
+				window.location.replace($(this).data('link'));
+			})
+		});
 	};
 
 
