@@ -328,8 +328,21 @@
 
 	};
 
+	function filterEvents() {
+		let today = new Date().setHours(0, 0, 0, 0);
+		$(".event-card").each(function () {
+			let event = $(this);
+			let date = event.data("date");
+			let timestamp = Date.parse(date);
+			if (timestamp < today) {
+				event.remove();
+			}
+		})
+	}
+
 
 	$(function(){
+		filterEvents();
 
 		OnePageNav();
 		offCanvasNav();

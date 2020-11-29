@@ -24,7 +24,7 @@
         <div class="row event-filter justify-content-center">
 
           {% for event in site.events %}
-            <div class="card m-2 all {{ event.tag }}" style="width: 23%; min-width: 15rem; height: 27rem;">
+            <div class="card m-2 all {{ event.tag }} event-card" data-date="{{ event.date | date_to_long_string }}" style="width: 23%; min-width: 15rem; height: 27rem;">
               <img src="{{ event.image }}" class="card-img-top" alt="{{ event.image_alt }}">
               <div class="card-body d-flex flex-column">
                 <p class="card-text m-0">
