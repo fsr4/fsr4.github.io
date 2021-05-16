@@ -23,7 +23,8 @@
         </div>
       </a>
     {% endfor %}
-
+    </div>
+  </div>
 </section>
 <section class="site-section bg-light ">
       <!--Resorts-->
@@ -31,13 +32,20 @@
         <div class="row justify-content-center">
           <div class="col-md-12 mb-3">
             <div class="resorts mb-4">
-              <h2 class="mb-3"><strong>Resorts</strong></h2>
+              <h2 class="mb-3"><strong>Ressorts</strong></h2>
               <table class="table table-sm table-hover">
                 {% for resort in site.resorts %}
-                    <tr>
-                      <td><strong>{{ resort.name }}</strong></td>
-                      <td><a href="mailto:{{ resort.person_email }}">{{ resort.person_name }}</a></td>
-                    </tr>
+                  <tr>
+                    <td><strong>{{ resort.name }}</strong></td>
+                    <td>
+                      <ul class="mb-0" style="list-style-type: '\2192'">
+                        {% assign num = resort.person_names.size | minus: 1 %}
+                        {% for i in (0..num) %}
+                          <li class="pl-2"><a href="mailto:{{ resort.person_emails[i] }}">{{ resort.person_names[i] }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </td>
+                  </tr>
                 {% endfor %}
               </table>
             </div>
