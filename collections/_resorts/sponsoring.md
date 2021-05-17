@@ -1,5 +1,5 @@
 ---
 name: Sponsoring
-person_names: [Sebastian Pütz, Luis Hankel]
-person_emails: [sebastian.puetz@Student.HTW-Berlin.de, luis.hankel@student.htw-berlin.de]
+person_names: [Luis Hankel, Sebastian Pütz]
+person_emails: [luis.hankel@student.htw-berlin.de, sebastian.puetz@Student.HTW-Berlin.de]
 ---
