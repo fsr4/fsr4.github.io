@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: deploy
+    name: Test site using HTMLProof
     runs-on: ubuntu-18.04
     steps:
       - name: Check out repository
