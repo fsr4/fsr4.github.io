@@ -1,0 +1,41 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Build and deploy the website
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      # Recommended: Use cache action to cache the installed gems for the project
+      - name: Check cache for gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Build
+        uses: fsr4/jekyll-build@v1
+
+      - name: Deploy to production
+        uses: easingthemes/ssh-deploy@v2.1.7
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          SOURCE: ./_site
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
