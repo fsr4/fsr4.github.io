@@ -1,11 +1,11 @@
 ---
 title: Traumwerkstatt
-image: "/assets/images/Veranstaltungen/traumwerkstatt.jpg"
+image: "/assets/images/Veranstaltungen/traumwerkstatt_sose2021.png"
 image_alt: Traumwerkstatt Logo
-date: 12.12.2020
-time: ab 9 Uhr
+date: 11.06.2021
+time: ab 19 Uhr
 location: online
 pre-registration: true
-registration_link: https://wiki.htw-berlin.de/confluence/display/fachschaftsrat4/Traumwerkstatt+2020
+registration_link: https://wiki.htw-berlin.de/confluence/pages/viewpage.action?pageId=115315461
 tag: htw
 ---

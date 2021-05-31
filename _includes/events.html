@@ -5,8 +5,12 @@
         <div class="section-heading text-center col-md-2"></div>
         <div class="section-heading text-center col-md-8">
           <h2><strong>Veranstaltungen</strong></h2>
-          <p class="lead"><Wintersemester 2020</p>
-          <p class="card-text">Die Protokolle unserer Sitzungen und einige andere Informationen findet ihr <a href="https://wiki.htw-berlin.de/confluence/display/fachschaftsrat4/Fachschaftsrat+4+Startseite">hier</a> im Wiki der HTW. Dort könnt ihr euch mit dem selben Log-In wie zum Beispiel in LSF, Moodle, etc. anmelden.</p>
+          <p class="lead">Sommersemester 2021</p>
+          <p class="card-text">
+            Die Protokolle unserer Sitzungen und einige andere Informationen findet ihr
+            <a href="https://wiki.htw-berlin.de/confluence/display/fachschaftsrat4/Fachschaftsrat+4+Startseite">im Wiki der HTW</a>.
+            Dort könnt ihr euch mit dem selben Log-In wie zum Beispiel in LSF, Moodle, etc. anmelden.
+          </p>
         </div>
         <div class="section-heading text-center col-md-2"></div>
       </div>
@@ -24,7 +28,7 @@
         <div class="row event-filter justify-content-center">
 
           {% for event in site.events %}
-            <div class="card m-2 all {{ event.tag }}" style="width: 23%; min-width: 15rem; height: 27rem;">
+            <div class="card m-2 all {{ event.tag }} event-card" data-date="{{ event.date | date_to_long_string }}" style="width: 23%; min-width: 15rem; height: 27rem;">
               <img src="{{ event.image }}" class="card-img-top" alt="{{ event.image_alt }}">
               <div class="card-body d-flex flex-column">
                 <p class="card-text m-0">
