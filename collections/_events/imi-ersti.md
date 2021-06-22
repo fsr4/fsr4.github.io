@@ -5,5 +5,5 @@ image_alt: IMI Logo
 date: 25.06.2021
 time: ab 9:45 Uhr
 location: Campus WH
-tag: imi
+tag: sg
 ---
