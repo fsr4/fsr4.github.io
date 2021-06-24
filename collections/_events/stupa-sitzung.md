@@ -2,7 +2,7 @@
 title: StuPa Sitzung
 image: "/assets/images/Veranstaltungen/stupa.jpg"
 image_alt: StuPa Logo
-date: 27.11.2020
+date: 02.07.2021
 time: ab 17:30 Uhr
 location: online
 pre-registration: true
