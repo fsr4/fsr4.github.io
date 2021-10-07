@@ -6,7 +6,7 @@ collections:
   members:
     sort_by: last_name
     order:
-      - veronika.md
       - lotte.md
+      - dustin.md
       - luis.md
   resorts:

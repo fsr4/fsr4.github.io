@@ -1,5 +1,5 @@
 ---
 name: eMail-Kontakt
-person_names: [Luis Hankel]
-person_emails: [Luis.Hankel@Student.HTW-Berlin.de]
+person_names: [Luis Hankel, Sebastian Pütz]
+person_emails: [Luis.Hankel@Student.HTW-Berlin.de, Sebastian.Puetz@Student.HTW-Berlin.de]
 ---
