@@ -10,6 +10,5 @@ tag:
 - sitzung
 - htw
 - fb4
-published: false
 
 ---
