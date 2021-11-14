@@ -1,5 +1,5 @@
 ---
-title: StuPa Sitzung
+title: 194. StuPa Sitzung
 image: "/assets/images/Veranstaltungen/stupa.jpg"
 image_alt: StuPa Logo
 date: 18.11.2021
