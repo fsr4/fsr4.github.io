@@ -1,13 +1,13 @@
 ---
 title: Fachbereichsrat
-image: "/assets/images/Veranstaltungen/stupa.jpg"
-image_alt: StuPa Logo
-date: 20.1.2022
-time: 18:00 Uhr
-location: Campus WH & online
+image: "/assets/images/fb4.jpeg"
+image_alt: FB4 Logo
+date: 1.12.2021
+time: 14:00 Uhr
+location: Campus WH
 pre-registration: false
-registration_link: mailto:stupa-praesi@students-htw.de
-tag: htw
-published: false
+registration_link: mailto:fsr4@students-htw.de
+tag:
+- fb4
 
 ---
