@@ -1,6 +1,6 @@
 ---
 title: Fachbereichsrat
-image: "/assets/images/fb4.jpeg"
+image: ''
 image_alt: FB4 Logo
 date: 1.12.2021
 time: 14:00 Uhr
