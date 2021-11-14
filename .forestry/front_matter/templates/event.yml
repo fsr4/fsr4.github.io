@@ -29,3 +29,5 @@ fields:
 - type: text
   name: tag
   label: tag
+pages:
+- collections/_events/fsr4-sitzung-1.md
