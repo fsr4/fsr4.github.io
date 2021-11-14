@@ -2,10 +2,11 @@
 title: Traumwerkstatt
 image: "/assets/images/Veranstaltungen/traumwerkstatt_sose2021.png"
 image_alt: Traumwerkstatt Logo
-date: 11.06.2021
-time: ab 19 Uhr
-location: online
+date: coming soon
+time: coming soon
+location: coming soon
 pre-registration: true
-registration_link: https://wiki.htw-berlin.de/confluence/pages/viewpage.action?pageId=115315461
+registration_link: coming soon
 tag: htw
+
 ---
