@@ -1,0 +1,13 @@
+---
+title: Fachbereichsrat
+image: "/assets/images/Veranstaltungen/stupa.jpg"
+image_alt: StuPa Logo
+date: 20.1.2022
+time: 18:00 Uhr
+location: Campus WH & online
+pre-registration: false
+registration_link: mailto:stupa-praesi@students-htw.de
+tag: htw
+published: false
+
+---
