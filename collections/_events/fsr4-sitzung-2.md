@@ -7,6 +7,6 @@ time: '19:30'
 location: WH B 106 & online
 pre-registration: true
 registration_link: mailto:fsr4@students-htw.de
-tag: sitzung
+tag: sitzung fb4 htw
 
 ---
