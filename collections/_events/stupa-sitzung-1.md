@@ -1,13 +1,12 @@
 ---
-title: StuPa Sitzung
+title: 195. StuPa Sitzung
 image: "/assets/images/Veranstaltungen/stupa.jpg"
 image_alt: StuPa Logo
-date: 18.11.2021
+date: 9.1.2022
 time: 18:00 Uhr
-location: TA A 208 & online
+location: Campus WH & online
 pre-registration: false
 registration_link: mailto:stupa-praesi@students-htw.de
 tag: htw
-published: false
 
 ---
