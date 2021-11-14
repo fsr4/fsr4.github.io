@@ -8,7 +8,5 @@ location: WH B 106 & online
 link: https://moodle.htw-berlin.de/course/view.php?id=26794
 tag:
 - sitzung
-- htw
-- fb4
 
 ---
