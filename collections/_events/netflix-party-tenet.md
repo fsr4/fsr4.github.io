@@ -7,6 +7,5 @@ time: ab 19:30 Uhr
 location: WH G 001 & 002
 link: ''
 tag: htw
-published: false
 
 ---
