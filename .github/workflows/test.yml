@@ -14,6 +14,11 @@ jobs:
     runs-on: ubuntu-18.04
     needs: build
     steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: ./_site
       - uses: chabad360/htmlproofer@v1.1
         with:
           directory: ./_site

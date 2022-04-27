@@ -14,6 +14,11 @@ jobs:
     runs-on: ubuntu-18.04
     needs: build
     steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: ./_site
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.1.7
         env:
@@ -28,6 +33,11 @@ jobs:
     runs-on: ubuntu-18.04
     needs: build
     steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: ./_site
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
