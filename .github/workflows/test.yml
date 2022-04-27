@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+
+  test:
+    name: Test
+    runs-on: ubuntu-18.04
+    needs: build
+    steps:
+      - uses: chabad360/htmlproofer@v1.1
+        with:
+          directory: ./_site
+          arguments: --assume-extension --check-html --disable-external --allow-hash-href
