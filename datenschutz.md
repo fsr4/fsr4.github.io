@@ -219,7 +219,7 @@ benötigen, dann können Sie sich an uns wenden.
 
 - **Instagram:** Soziales Netzwerk; Dienstanbieter: Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA;
   Website: [https://www.instagram.com](https://www.instagram.com);
-  Datenschutzerklärung: [http://instagram.com/about/legal/privacy](http://instagram.com/about/legal/privacy).
+  Datenschutzerklärung: [http://instagram.com/about/legal/privacy](https://instagram.com/about/legal/privacy).
 - **Facebook:** Soziales Netzwerk; Dienstanbieter: Facebook Ireland Ltd., 4 Grand Canal Square, Grand Canal Harbour,
   Dublin 2, Irland, Mutterunternehmen: Facebook, 1 Hacker Way, Menlo Park, CA 94025, USA;
   Website: [https://www.facebook.com](https://www.facebook.com);
