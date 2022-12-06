@@ -34,9 +34,9 @@ Wilhelminenhofstraße 75A\
 Gebäude B, Raum 107\
 12459 Berlin
 
-**Vertretungsberechtigte Personen:** Veronika Bertels
+**Vertretungsberechtigte Personen:** Dustin Eikmeier
 
-**E-Mail-Adresse:** veronika.bertels@student.htw-berlin.de
+**E-Mail-Adresse:** dustin.eikmeier@student.htw-berlin.de
 
 ## Übersicht der Verarbeitungen
 Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
