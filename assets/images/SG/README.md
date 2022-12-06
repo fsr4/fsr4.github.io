@@ -1,0 +1,1 @@
+Logos der Studiengänge

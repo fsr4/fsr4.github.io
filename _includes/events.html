@@ -5,7 +5,7 @@
         <div class="section-heading text-center col-md-2"></div>
         <div class="section-heading text-center col-md-8">
           <h2><strong>Veranstaltungen</strong></h2>
-          <p class="lead">Sommersemester 2021</p>
+          <p class="lead">Wintersemester 2021/2022</p>
           <p class="card-text">
             Die Protokolle unserer Sitzungen und einige andere Informationen findet ihr
             <a href="https://wiki.htw-berlin.de/confluence/display/fachschaftsrat4/Fachschaftsrat+4+Startseite">im Wiki der HTW</a>.
@@ -34,6 +34,9 @@
                 <p class="card-text m-0">
                   <span class="icon-calendar"></span>
                   {{ event.date | date_to_long_string }}
+                  {% if event.end_date %}
+                  - {{ event.end_date | date_to_long_string }}
+                  {% endif %}
                 </p>
                 {% if event.time %}
                 <p class="card-text m-0">
