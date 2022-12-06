@@ -15,7 +15,7 @@ Wilhelminenhofstraße 75A\
 **Telefon:** 030 50193365
 
 ## Vertretungsberechtigte
-**Vertretungsberechtigt:** Veronika Bertels (Vorsitzende)
+**Vertretungsberechtigt:** Dustin Eikmeier (Vorsitzende)
 
 ## Social Media und andere Onlinepräsenzen
 **Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:**
