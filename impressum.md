@@ -4,7 +4,7 @@ layout: secondary
 
 # Impressum
 ## Diensteanbieter
-FSR 4 der HTW Berlin, Veronika Bertels\
+FSR 4 der HTW Berlin, Dustin Eikmeier\
 Gebäude B, Raum 107\
 Wilhelminenhofstraße 75A\
 12459 Berlin
