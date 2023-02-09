@@ -10,7 +10,15 @@
       <ul class="navbar-nav flex-wrap">
         <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#section-infos">Infos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#section-members">Mitglieder</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="memberDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mitglieder
+          </a>
+          <div class="dropdown-menu" aria-labelledby="memberDropdown">
+            <a href="#section-members" class="dropdown-item">Aktuelle Mitglieder</a>
+            <a href="/alumni" class="dropdown-item dropdown-item-link" data-link="{{ site.url }}/alumni">Alumni</a>
+          </div>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Veranstaltungen

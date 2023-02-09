@@ -10,3 +10,5 @@ collections:
       - dustin.md
       - luis.md
   resorts:
+  alumni:
+    sort_by: last_name

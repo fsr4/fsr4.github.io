@@ -1,0 +1,14 @@
+---
+layout: secondary
+---
+
+<h1>Alumni &ndash; Ehemalige Mitglieder des FSR4</h1>
+
+{% for alumnus in site.alumni %}
+    <div class="resume-item full-width mb-4">
+        <h3>{{ alumnus.first_name }} {{ alumnus.last_name }}</h3>
+        <p class="mt-4 mb-0"><strong>Mitglied von {{ alumnus.since }} bis {{ alumnus.until}}</strong></p>
+        <p class="mt-1 mb-0">{{ alumnus.studyprogramm }}, {{ alumnus.degree }}</p>
+    </div>
+    </a>
+{% endfor %}

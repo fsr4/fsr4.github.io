@@ -26,6 +26,11 @@ sections:
   create: documents
   match: "*.md"
 - type: directory
+  path: collections/_alumni
+  label: Alumni
+  create: documents
+  match: "*.md"
+- type: directory
   path: collections/_events
   label: Events
   create: documents
