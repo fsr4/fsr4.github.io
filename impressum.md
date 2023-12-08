@@ -4,7 +4,7 @@ layout: secondary
 
 # Impressum
 ## Diensteanbieter
-FSR 4 der HTW Berlin, Dustin Eikmeier\
+FSR 4 der HTW Berlin, Sebastian Pütz\
 Gebäude B, Raum 107\
 Wilhelminenhofstraße 75A\
 12459 Berlin
@@ -15,7 +15,7 @@ Wilhelminenhofstraße 75A\
 **Telefon:** 030 50193365
 
 ## Vertretungsberechtigte
-**Vertretungsberechtigt:** Dustin Eikmeier (Vorsitzende)
+**Vertretungsberechtigt:** Sebastian Pütz (Vorsitzender)
 
 ## Social Media und andere Onlinepräsenzen
 **Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:**
