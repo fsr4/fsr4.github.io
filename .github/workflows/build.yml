@@ -21,7 +21,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build
-        uses: fsr4/jekyll-build@v1
+        uses: fsr4/jekyll-build@v2
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v3
