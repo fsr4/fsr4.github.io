@@ -11,7 +11,7 @@ jobs:
   
   deploy_production:
     name: Deploy to fsr4.students-htw.de
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Download build artifact
