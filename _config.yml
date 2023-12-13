@@ -6,9 +6,10 @@ collections:
   members:
     sort_by: last_name
     order:
-      - lotte.md
-      - dustin.md
-      - luis.md
+      - 1_sebastian.md
+      - 2_christian.md
+      - 3_dustin.md
+      - 4_michaela.md
   resorts:
   alumni:
     sort_by: last_name
