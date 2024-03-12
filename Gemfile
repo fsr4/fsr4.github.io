@@ -9,6 +9,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'http_parser.rb'
 gem 'jekyll', '~> 4.3'
 gem 'jekyll-sass-converter', '~> 2.0'
+gem 'sass-embedded' , '1.63.6'
 gem 'google-protobuf', '3.25'
 group :jekyll_plugins do
   # gem 'jekyll-admin'
