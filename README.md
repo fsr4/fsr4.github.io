@@ -1,5 +1,5 @@
 # fsr4.github.io
-![deploy](https://github.com/fsr4/fsr4.github.io/workflows/deploy/badge.svg)
+[![Deploy](https://github.com/fsr4/fsr4.github.io/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/fsr4/fsr4.github.io/actions/workflows/deploy.yml)
 
 Webseite des Fachschaftsrat 4 der HTW Berlin
 
