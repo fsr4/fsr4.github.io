@@ -4,7 +4,7 @@ layout: secondary
 
 # Impressum
 ## Diensteanbieter
-FSR 4 der HTW Berlin, Sebastian Pütz\
+FSR 4 der HTW Berlin, Christian Wolter\
 Gebäude B, Raum 107\
 Wilhelminenhofstraße 75A\
 12459 Berlin
@@ -15,7 +15,7 @@ Wilhelminenhofstraße 75A\
 **Telefon:** 030 50193365
 
 ## Vertretungsberechtigte
-**Vertretungsberechtigt:** Sebastian Pütz (Vorsitzender)
+**Vertretungsberechtigt:** Christian Wolter (Vorsitzender)
 
 ## Social Media und andere Onlinepräsenzen
 **Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:**

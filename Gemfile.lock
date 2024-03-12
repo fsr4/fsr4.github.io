@@ -15,7 +15,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
+    jekyll (4.3.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -54,7 +54,7 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.69.5)
+    sass-embedded (1.63.6)
       google-protobuf (~> 3.23)
       rake (>= 13.0.0)
     terminal-table (3.0.2)
@@ -67,7 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   http_parser.rb
-  jekyll (~> 4.2)
+  jekyll (~> 4.3)
 
 BUNDLED WITH
    2.4.10
