@@ -68,6 +68,9 @@ PLATFORMS
 DEPENDENCIES
   http_parser.rb
   jekyll (~> 4.3)
+  jekyll-sass-converter (~> 2.0)
+  google-protobuf (3.25)
+
 
 BUNDLED WITH
    2.5.3
