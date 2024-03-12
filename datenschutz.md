@@ -34,9 +34,9 @@ Wilhelminenhofstraße 75A\
 Gebäude B, Raum 107\
 12459 Berlin
 
-**Vertretungsberechtigte Personen:** Sebastian Pütz
+**Vertretungsberechtigte Personen:** Christian Wolter
 
-**E-Mail-Adresse:** Sebastian.Puetz@Student.htw-berlin.de
+**E-Mail-Adresse:** Christian.Wolter@Student.htw-berlin.de
 
 ## Übersicht der Verarbeitungen
 Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und

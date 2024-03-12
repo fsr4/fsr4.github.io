@@ -15,7 +15,7 @@ Wilhelminenhofstraße 75A\
 **Telefon:** 030 50193365
 
 ## Vertretungsberechtigte
-**Vertretungsberechtigt:** Christian Wolter (Vorsitzender)
+**Vertretungsberechtigt:** Christian Wolter (Stellvertretender Vorsitzender)
 
 ## Social Media und andere Onlinepräsenzen
 **Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:**
