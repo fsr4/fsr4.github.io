@@ -68,7 +68,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  google-protobuf (= 3.25)
+  google-protobuf (= 3.25.1-x86_64-linux)
   http_parser.rb
   jekyll (~> 4.3)
   jekyll-sass-converter (~> 2.0)
