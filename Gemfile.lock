@@ -66,11 +66,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  concurrent-ruby (= 1.2.3)
   google-protobuf (= 4.26.0)
   http_parser.rb
   jekyll (~> 4.3)
-  sass-embedded (= 1.72.0)
 
 BUNDLED WITH
    2.5.7
