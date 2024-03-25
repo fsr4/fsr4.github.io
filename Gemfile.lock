@@ -67,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   concurrent-ruby (= 1.2.3)
+  google-protobuf (= 4.26.0)
   http_parser.rb
   jekyll (~> 4.3)
 
