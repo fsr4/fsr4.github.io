@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build and deploy the website
-    runs-on: x86_64-linux-gnu
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
