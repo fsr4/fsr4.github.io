@@ -10,6 +10,7 @@ gem 'http_parser.rb'
 gem 'jekyll', '~> 4.3'
 gem 'concurrent-ruby', '1.2.3'
 gem 'google-protobuf', '4.26.0'
+gem 'sassc-embedded', '~> 1.70', '>= 1.70.1'
 group :jekyll_plugins do
   # gem 'jekyll-admin'
 end
