@@ -1,5 +1,5 @@
 ---
 name: Buddy-Kommunikation
-person_names: [Marco]
-person_emails: [Marco.Heger@Student.HTW-Berlin.de]
+person_names: [Kein/e Verantwortliche/r]
+person_emails: [fsr4@students-htw.de]
 ---

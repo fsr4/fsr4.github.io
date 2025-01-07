@@ -1,9 +1,9 @@
 ---
-first_name: Shium
+first_name: Mohammed Shium
 last_name: Rahman
 email: Shium.Rahman@Student.HTW-Berlin.de
-role: Stellvertretender Vorsitz
-status: Kommissarisches Mitglied
+role: Vorsitz
+status: Gewähltes Mitglied
 studyprogramm: Angewandte Informatik
 degree: Bachelor
 ---
